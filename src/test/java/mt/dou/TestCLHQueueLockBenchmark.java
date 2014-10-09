@@ -12,7 +12,7 @@ import java.util.concurrent.*;
  * @author Andrey Lomakin <a href="mailto:lomakin.andrey@gmail.com">Andrey Lomakin</a>
  * @since 10/5/14
  */
-public class CLHQueueLockBenchmark {
+public class TestCLHQueueLockBenchmark {
 	private final CLHQueueLock spinLock = new CLHQueueLock();
 	private final ExecutorService executorService = Executors.newCachedThreadPool();
 

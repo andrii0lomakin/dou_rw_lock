@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * @author Andrey Lomakin <a href="mailto:lomakin.andrey@gmail.com">Andrey Lomakin</a>
  * @since 10/5/14
  */
-public class ReadLockCountdown {
+public class TestReadLockCountdown {
 	private final ReadWriteLock spinLock = new ReentrantReadWriteLock();
 	private final ExecutorService executorService = Executors.newCachedThreadPool();
 	private final CountDownLatch latch = new CountDownLatch(1);
